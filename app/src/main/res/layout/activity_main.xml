@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+   <com.airbnb.lottie.LottieAnimationView
+       android:id="@+id/lottie_anim"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="10dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
